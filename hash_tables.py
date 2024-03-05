@@ -4,6 +4,7 @@ def hash(key, value):
   hash_val = 0
   for i in key:
     hash_val += ord(i)
+  print(hash_val//100)
   hash_table.insert(hash_val//100, value)
 
 def retrieve(key):
